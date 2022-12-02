@@ -1,0 +1,265 @@
+@media screen and (min-width: 992px) {
+  .nav-item {
+    line-height: 100px;
+  }
+}
+/*slider style */
+.car {
+  padding: 0%;
+}
+#company {
+  height: 32rem;
+  z-index: 0;
+}
+.thumbnail {
+  position: relative;
+}
+
+.caption {
+  position: absolute;
+  top: 60%;
+  left: 60px;
+  width: 100%;
+  color: white;
+  font-weight: bold;
+  font-size: 40px;
+}
+.description {
+  position: absolute;
+  top: 70%;
+  left: 60px;
+  width: 100%;
+  color: white;
+  width: 50%;
+  font-size: 15px;
+  margin-top: 2%;
+}
+@media only screen and (max-width: 700px) {
+  .description {
+    position: absolute;
+    top: 70%;
+    left: 60px;
+    width: 100%;
+    color: white;
+    width: 80%;
+    font-size: 15px;
+    margin-top: 3%;
+  }
+  .carousel-item {
+    height: 100px; /* <================ from here you can change the height of images*/
+  }
+}
+
+.img-gradient:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+  background: -moz-linear-gradient(
+    top,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 1) 100%
+  ); /* FF3.6+ */
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    color-stop(0%, rgba(0, 0, 0, 1)),
+    color-stop(100%, rgba(255, 255, 255, 1))
+  ); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(
+    top,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 1) 100%
+  ); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(
+    top,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 1) 100%
+  ); /* Opera 11.10+ */
+  background: -ms-linear-gradient(
+    top,
+    rgba(0, 47, 75, 0) 0%,
+    rgba(0, 0, 0, 1) 100%
+  ); /* IE10+ */
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 47, 75, 0) 0%,
+    rgba(0, 0, 0, 1) 100%
+  ); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#002f4b', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */
+}
+.img-gradient img {
+  display: block;
+}
+.carousel-item {
+  height: 500px; /* <================ from here you can change the height of images*/
+}
+
+/* ------------------------------ */
+
+.container-fluid {
+  padding: 0px;
+  height: 100%;
+  width: 100%;
+}
+.row {
+  margin: 0px;
+  padding: 0px;
+}
+.card {
+  height: 70%;
+}
+.img-fluid {
+  height: 60%;
+}
+
+.card {
+  width: 90%;
+  border: none;
+}
+
+.card-title {
+  font-weight: bold;
+}
+.card-text {
+  margin-top: 50px;
+}
+#imgTop {
+  width: 50%;
+  height: 30%;
+}
+
+@media only screen and (max-width: 1000px) {
+  .card {
+    margin-top: 30px;
+    width: 100%;
+  }
+  .card-text {
+    margin-top: 100px;
+    width: 100%;
+  }
+}
+
+.row {
+  --bs-gutter-x: 0px;
+}
+
+.mb-2 {
+  margin-left: 30px;
+  height: 0px;
+}
+/* ------------------------------ */
+
+#main {
+  background-color: rgb(26, 26, 26);
+}
+#contact_img {
+  margin-left: 40%;
+  padding: 0px;
+  height: 180px;
+}
+#icon {
+  margin-top: 20px;
+  color: #fff;
+}
+#desc {
+  font-weight: bold;
+  text-align: center;
+  font-size: 16px;
+  margin-top: 10px;
+  color: #fff;
+}
+#contacts {
+  max-height: 80%;
+  background-color: rgb(20, 20, 20);
+  padding: 10px;
+  margin: 20px;
+  width: 200px;
+  /*=================*/
+}
+#contact_us {
+  background-color: rgb(26, 26, 26);
+  display: flex;
+  flex-direction: row;
+  padding-left: 100px;
+  padding-right: 100px;
+  justify-content: space-evenly;
+}
+#contacts:hover {
+  width: 215px;
+  box-shadow: 0px 6px 9px rgb(15, 15, 15);
+  transition-duration: 0.4s;
+}
+@media only screen and (max-width: 850px) {
+  #contact_us {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-left: 0px;
+    padding-right: 0px;
+    width: 100%;
+  }
+  #contacts {
+    width: 100%;
+    margin: 0.2px;
+    padding: 0px;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: flex-start;
+    align-content: flex-start;
+  }
+  #icon {
+    padding: 0px;
+    margin-right: 0px;
+    width: 50%;
+  }
+  #desc {
+    margin-right: 30px;
+    width: 150px;
+    margin-top: 0px;
+  }
+  #contact_img {
+    margin-left: 30%;
+    padding: 0px;
+  }
+}
+
+
+
+.text-center{
+  width: 100%;
+  background-color: rgb(26, 26, 26);
+}
+.rounded{ 
+  margin-top: 20px;
+
+}
+.social-link {
+  width: 30px;
+  height: 30px;
+  border: 1px solid #ddd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #666;
+  border-radius: 50%;
+  transition: all 0.3s;
+  font-size: 0.9rem;
+}
+
+.social-link:hover, .social-link:focus {
+  background: #ddd;
+  text-decoration: none;
+  color: #555;
+}
+
+.rounded-circle{
+  width: 100px;
+  height: 100px;
+}
